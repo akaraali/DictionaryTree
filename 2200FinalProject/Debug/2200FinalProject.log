@@ -1,0 +1,33 @@
+﻿Build started 4/24/2015 12:33:17 AM.
+     1>Project "c:\Users\Adam\documents\visual studio 2013\Projects\2200FinalProject\2200FinalProject\2200FinalProject.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DictionaryImp.cpp test.cpp
+         test.cpp
+         DictionaryImp.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\adam\documents\visual studio 2013\Projects\2200FinalProject\Debug\2200FinalProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\adam\documents\visual studio 2013\Projects\2200FinalProject\Debug\2200FinalProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\adam\documents\visual studio 2013\Projects\2200FinalProject\Debug\2200FinalProject.lib" /MACHINE:X86 Debug\DictionaryImp.obj
+         Debug\test.obj
+     1>test.obj : error LNK2005: "public: __thiscall Dictionary::Dictionary(void)" (??0Dictionary@@QAE@XZ) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl doubleWithLeftChild(class WordNode * &)" (?doubleWithLeftChild@@YAXAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl doubleWithRightChild(class WordNode * &)" (?doubleWithRightChild@@YAXAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: bool __thiscall Dictionary::find(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class WordNode * &)" (?find@Dictionary@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: int __thiscall Dictionary::getSize(void)" (?getSize@Dictionary@@QAEHXZ) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "int __cdecl getSizee(class WordNode * &)" (?getSizee@@YAHAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "int __cdecl height(class WordNode *)" (?height@@YAHPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: void __thiscall Dictionary::insert(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?insert@Dictionary@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl insertt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class WordNode * &)" (?insertt@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: bool __thiscall Dictionary::isEmpty(void)" (?isEmpty@Dictionary@@QAE_NXZ) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "int __cdecl max(int,int)" (?max@@YAHHH@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl printSort(class WordNode * &)" (?printSort@@YAXAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: void __thiscall Dictionary::printSorted(void)" (?printSorted@Dictionary@@QAEXXZ) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "public: void __thiscall Dictionary::remove(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?remove@Dictionary@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl removee(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class WordNode * &)" (?removee@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl rotateWithLeftChild(class WordNode * &)" (?rotateWithLeftChild@@YAXAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>test.obj : error LNK2005: "void __cdecl rotateWithRightChild(class WordNode * &)" (?rotateWithRightChild@@YAXAAPAVWordNode@@@Z) already defined in DictionaryImp.obj
+     1>c:\users\adam\documents\visual studio 2013\Projects\2200FinalProject\Debug\2200FinalProject.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "c:\Users\Adam\documents\visual studio 2013\Projects\2200FinalProject\2200FinalProject\2200FinalProject.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.88
